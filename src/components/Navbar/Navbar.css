@@ -14,3 +14,7 @@
     color: rgb(0, 0, 0) !important;
     text-decoration: none;
 }
+
+.navbar-toggler-icon {
+    color: #000 !important;
+}
