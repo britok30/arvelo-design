@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
+    const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+
+    
     return (
         <div>
             <nav className="navbar navbar-expand-lg">
