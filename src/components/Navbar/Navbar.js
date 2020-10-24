@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { Fade } from 'react-reveal';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -12,9 +13,12 @@ const Navbar = () => {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <Link className="navbar-brand" to="/">
-                    Arvelo Design
-                </Link>
+                <Fade bottom duration={3000}>
+                    <Link className="navbar-brand" to="/">
+                        <span className="light">Arvelo</span> Design
+                    </Link>
+                </Fade>
+
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -33,23 +37,20 @@ const Navbar = () => {
                     } navbar-collapse`}
                     id="navbarNav"
                 >
-                    <ul className="navbar-nav ml-auto">
-                        <li className="nav-item active">
-                            <Link className="nav-link" to="/projects">
-                                Projects
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/about">
-                                About
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/contact">
-                                Contact
-                            </Link>
-                        </li>
-                    </ul>
+                    <Fade bottom cascade duration={3000} delay={2000}>
+                        <ul className="navbar-nav ml-auto">
+                            <li className="nav-item active">
+                                <Link className="nav-link" to="/projects">
+                                    Projects
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/about">
+                                    About
+                                </Link>
+                            </li>
+                        </ul>
+                    </Fade>
                 </div>
             </nav>
         </div>

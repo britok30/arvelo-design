@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fade } from 'react-reveal';
 import './Hero.css';
 
 const Hero = () => {
@@ -6,7 +7,9 @@ const Hero = () => {
         <>
             <div className="hero-container">
                 <div className="inner-container">
-                    <h1 className="hero-header">Modern Made Simple</h1>
+                    <Fade bottom duration={3000}>
+                        <h1 className="hero-header">Modern Made Simple</h1>
+                    </Fade>
                 </div>
             </div>
         </>

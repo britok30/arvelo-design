@@ -13,6 +13,11 @@
 .navbar-brand {
     color: rgb(0, 0, 0) !important;
     text-decoration: none;
+    font-weight: 600;
+}
+
+.light {
+    font-weight: 300;
 }
 
 .navbar-toggler-icon {

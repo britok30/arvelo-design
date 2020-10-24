@@ -5,8 +5,8 @@
     flex-direction: column;
     background: linear-gradient(
             to right,
-            rgba(0, 0, 0, 0.529),
-            rgba(0, 0, 0, 0.529)
+            rgba(0, 0, 0, 0.629),
+            rgba(0, 0, 0, 0.629)
         ),
         url('../../images/hero.jpg') no-repeat center center/cover;
     width: 100%;
