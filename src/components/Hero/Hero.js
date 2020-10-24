@@ -8,7 +8,9 @@ const Hero = () => {
             <div className="hero-container">
                 <div className="inner-container">
                     <Fade bottom duration={3000}>
-                        <h1 className="hero-header">Modern Made Simple</h1>
+                        <h1 className="hero-header">
+                            A<span>D</span>
+                        </h1>
                     </Fade>
                 </div>
             </div>

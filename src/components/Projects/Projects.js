@@ -7,8 +7,8 @@ const Projects = () => {
     const renderCard = ProjectData.map((project) => {
         return (
             <>
-                <Fade key={project.id} bottom duration={3000} distance={'1rem'}>
-                    <div className="card">
+                <Fade bottom duration={3000} distance={'1rem'}>
+                    <div key={project.id} className="card">
                         <img
                             src={project.image}
                             className="card-img-top"
@@ -24,10 +24,13 @@ const Projects = () => {
     });
 
     return (
-        <div className="projects-outer-container">
+        <div className="p-outer">
             <div className="container">
                 <h1 className="text-center">Projects</h1>
-                <div className="cards-column">{renderCard}</div>
+
+                <div className="col-md-12 col-md-12 col-sm-12 card-columns">
+                    {renderCard}
+                </div>
             </div>
         </div>
     );
