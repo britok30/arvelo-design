@@ -1,6 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal';
 import './About.css';
+import Contact from '../Contact/Contact';
 
 const About = () => {
     return (
@@ -43,6 +44,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <Contact />
         </div>
     );
 };
