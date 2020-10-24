@@ -1,0 +1,13 @@
+.about-p1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.col-container {
+    display: flex;
+    align-items: center;
+}
+
+.about-row {
+    margin-top: 50px;
+}
