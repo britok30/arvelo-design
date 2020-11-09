@@ -2,7 +2,7 @@ import React from 'react';
 import { Fade } from 'react-reveal';
 import BackgroundSlider from 'react-background-slider';
 import image1 from '../../images/hero.jpg';
-import image2 from '../../images/jonathan-borba-eyZwrNbaCto-unsplash.jpg';
+import image2 from '../../images/hero2.jpg';
 import './Hero.css';
 
 const Hero = () => {

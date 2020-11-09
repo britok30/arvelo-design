@@ -1,6 +1,11 @@
 import React from 'react';
 import Fade from 'react-reveal';
 import './About.css';
+import orlando from '../../images/orlando.jpg';
+import about from '../../images/about.jpg';
+import about2 from '../../images/about2.jpg';
+import about3 from '../../images/about3.jpg';
+import about4 from '../../images/about4.jpg';
 import Contact from '../Contact/Contact';
 
 const About = () => {
@@ -10,37 +15,74 @@ const About = () => {
                 <div className="row about-row">
                     <div className="col-md-7">
                         <Fade bottom duration={3000} distance={'20px'}>
-                            <p className="about-p1">
-                                Liany Arvelo is a Interior Designer based in
-                                North Orlando.
-                            </p>
+                            <img
+                                className="orlando"
+                                src={orlando}
+                                alt="orlando"
+                            />
                         </Fade>
                     </div>
 
                     <div className="col-md-5 col-container">
-                        <Fade bottom duration={3000} distance={'20px'}>
-                            <p className="about-p2">
-                                An early passion & appreciation for beautiful
-                                designs and exceptional home layouts is what
-                                inspired Liany to pursue a career in interior
-                                design. Being Dominican-American, she has a
-                                cultural background that has influenced her
-                                inspirations when it comes to interior design.
-                                After graduating from Seminole State College
-                                with her Bachelors Degree in Interior Design,
-                                she spent two years perfecting her craft at
-                                internships and now currently works for a design
-                                company based in Orlando, FL.
-                                <br />
-                                <br />
-                                She offers tailor-made solutions for the layout
-                                and decoration of your interior. Each project is
-                                born from the meeting between a person and a
-                                place, its history, and the desire to project
-                                there to live there. Pleasant spaces in which we
-                                want to build memories
-                            </p>
-                        </Fade>
+                        <p className="about-p2">
+                            An early passion & appreciation for beautiful
+                            designs and exceptional home layouts is what
+                            inspired Liany to pursue a career in interior
+                            design. Being Dominican-American, she has a cultural
+                            background that has influenced her inspirations when
+                            it comes to interior design. After graduating from
+                            Seminole State College with her Bachelors Degree in
+                            Interior Design, she spent two years perfecting her
+                            craft while completing internship and now is
+                            currently working for a design company based in
+                            Orlando, Florida.
+                        </p>
+                    </div>
+                </div>
+                <div className="row whitespace">
+                    <div className="col-md-7 col-container">
+                        <p>
+                            She offers tailor-made solutions for the layout and
+                            decoration of your interior. Each & every project is
+                            born from meeting between people and a location, its
+                            history, and the desired needs for the client to
+                            live there. Pleasant spaces in which we want to
+                            build memories.
+                        </p>
+                    </div>
+                    <div className="col-md-5">
+                        <img className="about" src={about} alt="about" />
+                    </div>
+                </div>
+                <div className="row whitespace">
+                    <div className="col-md-7">
+                        <img className="about2" src={about2} alt="about" />
+                    </div>
+                    <div className="col-md-5 col-container">
+                        <p>
+                            "The designer does not begin with some preconcived
+                            idea. Rather, the idea is result of careful study
+                            and observation, and the design a product of that
+                            idea." - Paul Rand
+                        </p>
+                    </div>
+                </div>
+                <div className="row whitespace">
+                    <div className="col-md-7 col-container">
+                        <p>
+                            "Design is really an act of communication, which
+                            means having a deep understanding of the person with
+                            whom the designer is communicating" - Don Norman
+                        </p>
+                    </div>
+                    <div className="col-md-5">
+                        <img className="about3" src={about3} alt="about" />
+                    </div>
+                </div>
+
+                <div className="row whitespace">
+                    <div className="col-md-12 col-container-f">
+                        <img className="about4" src={about4} alt="about" />
                     </div>
                 </div>
             </div>

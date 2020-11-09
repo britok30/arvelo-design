@@ -8,6 +8,28 @@
     align-items: center;
 }
 
+.col-container-f {
+    display: flex;
+    justify-content: center;
+}
+
 .about-container {
     margin: 50px 0 100px 0;
+}
+
+.whitespace {
+    margin-top: 80px;
+}
+
+.orlando,
+.about,
+.about2,
+.about3 {
+    width: 500px;
+    border-radius: 8px;
+}
+
+.about4 {
+    width: 1000px;
+    border-radius: 8px;
 }
