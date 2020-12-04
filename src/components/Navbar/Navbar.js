@@ -12,10 +12,10 @@ const Navbar = () => {
 
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg">
                 <Fade bottom duration={3000}>
                     <Link className="navbar-brand" to="/">
-                        <span className="light">Arvelo</span> Design
+                        Arvelo Design
                     </Link>
                 </Fade>
 

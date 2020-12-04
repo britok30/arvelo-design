@@ -1,5 +1,5 @@
 .nav-link {
-    color: rgb(139, 138, 138) !important;
+    color: #000 !important;
     text-decoration: none;
     transition: all 0.4s ease-in-out !important;
     opacity: 0.6 !important;
@@ -11,9 +11,14 @@
 }
 
 .navbar-brand {
-    color: rgb(0, 0, 0) !important;
+    color: #000;
     text-decoration: none;
     font-weight: 600;
+}
+
+.navbar-brand:hover {
+    color: #000 !important;
+    opacity: 1 !important;
 }
 
 .light {
