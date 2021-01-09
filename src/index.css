@@ -1,18 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400&display=swap');
 body {
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: 'Source Serif Pro', serif !important;
+    font-family: 'Hind Siliguri', sans-serif !important;
+    font-weight: 400;
 }
 
 ::-webkit-scrollbar {
     display: none;
 }
-
-/* .switch-wrapper {
-    position: relative;
-}
-
-.switch-wrapper > div {
-    position: absolute;
-} */

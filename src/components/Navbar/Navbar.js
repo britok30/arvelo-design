@@ -8,6 +8,7 @@ const Navbar = () => {
 
     const handleNavCollapse = () => {
         setIsNavCollapsed(!isNavCollapsed);
+        
     };
 
     return (
@@ -29,7 +30,10 @@ const Navbar = () => {
                     aria-label="Toggle navigation"
                     onClick={handleNavCollapse}
                 >
-                    <span className="navbar-toggler-icon"></span>
+                    <i
+                        className="fas fa-bars"
+                        style={{ color: '#fff', fontSize: '28px' }}
+                    ></i>
                 </button>
                 <div
                     className={`${
@@ -41,12 +45,17 @@ const Navbar = () => {
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item active">
                                 <Link className="nav-link" to="/projects">
-                                    Projects
+                                    Portfolio
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/about">
                                     About
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/pricing">
+                                    Pricing
                                 </Link>
                             </li>
                         </ul>

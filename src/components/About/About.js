@@ -14,13 +14,7 @@ const About = () => {
             <div className="container about-container">
                 <div className="row about-row">
                     <div className="col-md-7">
-                        <Fade bottom duration={3000} distance={'20px'}>
-                            <img
-                                className="orlando"
-                                src={orlando}
-                                alt="orlando"
-                            />
-                        </Fade>
+                        <img className="orlando" src={orlando} alt="orlando" />
                     </div>
 
                     <div className="col-md-5 col-container">
@@ -51,16 +45,12 @@ const About = () => {
                         </p>
                     </div>
                     <div className="col-md-5">
-                        <Fade bottom duration={3000} distance={'20px'}>
-                            <img className="about" src={about} alt="about" />
-                        </Fade>
+                        <img className="about" src={about} alt="about" />
                     </div>
                 </div>
                 <div className="row whitespace">
                     <div className="col-md-7">
-                        <Fade bottom duration={3000} distance={'20px'}>
-                            <img className="about2" src={about2} alt="about" />
-                        </Fade>
+                        <img className="about2" src={about2} alt="about" />
                     </div>
                     <div className="col-md-5 col-container">
                         <p>
@@ -80,17 +70,13 @@ const About = () => {
                         </p>
                     </div>
                     <div className="col-md-5">
-                        <Fade bottom duration={3000} distance={'20px'}>
-                            <img className="about3" src={about3} alt="about" />
-                        </Fade>
+                        <img className="about3" src={about3} alt="about" />
                     </div>
                 </div>
 
                 <div className="row whitespace">
                     <div className="col-md-12 col-container-f">
-                        <Fade bottom duration={3000} distance={'20px'}>
-                            <img className="about4" src={about4} alt="about" />
-                        </Fade>
+                        <img className="about4" src={about4} alt="about" />
                     </div>
                 </div>
             </div>

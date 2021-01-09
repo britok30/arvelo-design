@@ -33,3 +33,17 @@
     width: 1000px;
     border-radius: 8px;
 }
+
+@media (max-width: 768px) {
+    .orlando,
+    .about,
+    .about2,
+    .about3 {
+        width: 345px;
+        margin-bottom: 30px;
+    }
+
+    .about4 {
+        width: 345px;
+    }
+}
