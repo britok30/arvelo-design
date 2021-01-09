@@ -1,5 +1,4 @@
 import React from 'react';
-import Fade from 'react-reveal';
 import './About.css';
 import orlando from '../../images/orlando.jpg';
 import about from '../../images/about.jpg';
