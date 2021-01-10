@@ -47,7 +47,7 @@
     }
 
     .about4 {
-        min-width: 345px;
+        max-width: 345px;
     }
 
     .about-hr {
