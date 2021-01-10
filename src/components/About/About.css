@@ -8,11 +8,6 @@
     align-items: center;
 }
 
-.col-container-f {
-    display: flex;
-    justify-content: center;
-}
-
 .about-container {
     margin: 50px auto;
 }
@@ -25,25 +20,27 @@
 .about,
 .about2,
 .about3,
-.about4 {
+.about7 {
     width: 500px;
     border-radius: 8px;
+}
+
+.about7 {
+    display: block;
+    margin: 0 auto;
 }
 
 @media (max-width: 768px) {
     .orlando,
     .about,
     .about2,
-    .about3 {
+    .about3,
+    .about7 {
         max-width: 345px;
         margin-bottom: 30px;
         display: block;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .about4 {
-        max-width: 345px;
     }
 
     .about-hr {
