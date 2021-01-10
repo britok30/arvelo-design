@@ -24,13 +24,9 @@
 .orlando,
 .about,
 .about2,
-.about3 {
-    width: 500px;
-    border-radius: 8px;
-}
-
+.about3,
 .about4 {
-    width: 1000px;
+    width: 500px;
     border-radius: 8px;
 }
 
