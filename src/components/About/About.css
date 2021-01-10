@@ -41,9 +41,20 @@
     .about3 {
         max-width: 345px;
         margin-bottom: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .about4 {
         min-width: 345px;
+    }
+
+    .about-hr {
+        border: 0.5px solid #eee;
+    }
+
+    .whitespace {
+        margin-top: 40px;
     }
 }

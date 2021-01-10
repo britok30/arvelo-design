@@ -32,6 +32,7 @@ const About = () => {
                         </p>
                     </div>
                 </div>
+                <div className="about-hr"></div>
                 <div className="row whitespace">
                     <div className="col-md-7 col-container">
                         <p>
@@ -47,6 +48,7 @@ const About = () => {
                         <img className="about" src={about} alt="about" />
                     </div>
                 </div>
+                <div className="about-hr"></div>
                 <div className="row whitespace">
                     <div className="col-md-7">
                         <img className="about2" src={about2} alt="about" />
@@ -60,6 +62,7 @@ const About = () => {
                         </p>
                     </div>
                 </div>
+                <div className="about-hr"></div>
                 <div className="row whitespace">
                     <div className="col-md-7 col-container">
                         <p>
@@ -72,7 +75,7 @@ const About = () => {
                         <img className="about3" src={about3} alt="about" />
                     </div>
                 </div>
-
+                <div className="about-hr"></div>
                 <div className="row whitespace">
                     <div className="col-md-12 col-container-f">
                         <img className="about4" src={about4} alt="about" />
