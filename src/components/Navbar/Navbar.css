@@ -1,5 +1,6 @@
 .navbar {
     background: #000;
+    transition: ease-in 0.4s;
 }
 
 .nav-link {
