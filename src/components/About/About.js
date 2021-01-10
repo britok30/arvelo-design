@@ -4,7 +4,7 @@ import orlando from '../../images/orlando.jpg';
 import about from '../../images/about.jpg';
 import about2 from '../../images/about2.jpg';
 import about3 from '../../images/about3.jpg';
-import about4 from '../../images/about4.jpg';
+import about7 from '../../images/about7.jpg';
 import Contact from '../Contact/Contact';
 
 const About = () => {
@@ -78,7 +78,7 @@ const About = () => {
                 <div className="about-hr"></div>
                 <div className="row whitespace">
                     <div className="col-md-12 col-container-f">
-                        <img className="about4" src={about4} alt="about" />
+                        <img className="about4" src={about7} alt="about" />
                     </div>
                 </div>
             </div>
